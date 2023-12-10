@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url("../../Images/snakeBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.title{
+    width: 500px;
+    height: 50px;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
