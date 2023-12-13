@@ -402,7 +402,7 @@
     // COPYRIGHT
 
 
-      console.log("© 2023 Alex Zambaiti, attribution is required for public use\nMy youtube channel: https://youtube.com/@Alex...............\nMy Codepen channel: https://codepen.io/coder2010_\nMy Github Channel: https://github.com/user-name-user")
+      console.log("© 2023 Alex Zambaiti, attribution is required for public use\nMy Youtube channel: ("https://youtube.com/@Alex...............")\nMy Codepen channel: ("https://codepen.io/coder2010_")\nMy Github Channel: ("https://github.com/user-name-user") ")
 
 
       //* Attribution and credits required for public use
