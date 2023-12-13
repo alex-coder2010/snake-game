@@ -21,3 +21,21 @@ body{
     justify-content: center;
     text-align: center;
 }
+
+#button{
+    font-family: italic 40pt Calibri;
+    position: fixed;
+    top: 60vh;
+    left: 93vh;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    background-color: lightgreen;
+    color: hsl(0, 0%, 100%);
+    text-shadow: 2px 2px 5px hsl(0, 0%, 40%);
+    box-shadow: 2px 2px 5px hsl(0, 0%, 40%);
+    font-size: 24px;
+    border-radius: 7px;
+    
+}
