@@ -24,9 +24,9 @@ body{
 
 #button{
     font-family: italic 40pt Calibri;
-    position: absolute;
+    position: fixed;
     top: 50%;
-    left: 50%;
+    left: 43%;
     height: 50px;
     width: 150px;
     cursor: pointer;
