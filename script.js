@@ -117,11 +117,7 @@
       context.strokeStyle = "white";
       context.fillStyle = "darkgreen";
 
-      for (let i = 0; i <= snake.length; i++) {
-
-        //! ERROR (1) -----  (Criticity, Optional)
-
-        //! CODE EXPLANATION  ----   ("Code still works, but here (below) it gives the following error: ("Cannot read properties of undefined, (reading, "0")")")
+      for (let i = 0; i < snake.length; i++) {
 
         //todo (3)(1) -- SOLVE THE ERROR ABOVE -- (Criticity, Optional)
 
@@ -192,6 +188,8 @@
 
     function gameOver(){
 
+        snake.unshift([snake[0][0] + 26, snake[0][1] + 26, 26, 26]);
+        drawSnake();
         context.beginPath();
         direction = "right";
         context.font = 'italic 40pt Calibri';
@@ -220,29 +218,15 @@
 
         };
 
+         for(let i = 0; i < snake.length - 1; i++){
 
-        //! ERROR (2) ----------- (Criticity, Critical)
+             if(snake[snake.length - 1][0] === snake[i][0] && snake[snake.length - 1][1] === snake[i][1]){
 
-        //! PROBLEM EXPLANATION ("It does not detect when the head touches any of the body parts, for some reason.")
+                 snake = [snake[0][0], snake[0][1]];
+                 gameOver();
 
-        //todo (3)(2) -- SOLVE THE PROBLEM ABOVE -- (Criticity: Crticial)
-
-
-        //! Check if snake is colliding itself. (not working)
-
-
-        //! for(let i = 0; i < snake.length - 1; i++){
-
-        //!     if(snake[snake.length] == snake[i]){
-
-        //!         snake = [snake[0][0], snake[0][1]];
-        //!         gameOver();
-
-        //!     };
-        //! };
-
-
-        //!    -----------------------------------------------------------------------
+             };
+         };
 
 
         //* Check fruit collision, update score, create new fruit and make snake longer.
@@ -252,7 +236,7 @@
 
           score ++;
           scoreText.textContent = `Score: ${score}`;
-          snake.unshift([snake[0][0] + 26, snake[0][1] + 26, 26, 26])
+          snake.unshift([snake[0][0] + 26, snake[0][1] + 26, 26, 26]);
           generateFruit();
 
         };
@@ -275,53 +259,21 @@
         globalRandomY = randomY;
 
 
-        //! ERROR (3) ------  (Criticity: Critical)
+        // making sure the fruit does not spawn on top of the snake 
 
-        //! PROBLEM EXPLANATION ("It says that snake[i][0] is undefined, even though I can easily access it inside of this function.")
-        //! This has already been a problem earlier in the code at line 122.")
-
-        //todo (3)(3) SOLVE THE PROBLEM ABOVE -- (Criticity: Critical)
-
-
-        //! ---------------------------
-
-
-        //! making sure the fruit does not spawn on top of the snake (Not working, (Criticity: Critical))
-
-            
-        //! let count = 0;
-
-        //! do{
-          
-        //!     for(let i = 0; i <= snake.length; i++){
+              for(let i = 0; i < snake.length; i++){
                 
-        //!       if(randomX + randomY == snake[i][0] + snake[i][1]){
+                if(randomX == snake[i][0] || randomY == snake[i][1]){
 
-        //!         count++;
-        //!         randomX = Math.floor(Math.random() * possiblePositions.length);
-        //!         randomY = Math.floor(Math.random() * possiblePositions.length);
-        //!         globalRandomX = randomX;
-        //!         globalRandomY = randomY;
-        //!         continue;
+                  randomX = Math.floor(Math.random() * possiblePositions.length);
+                  randomY = Math.floor(Math.random() * possiblePositions.length);
+                  globalRandomX = randomX;
+                  globalRandomY = randomY;
+                  continue;
 
-        //!      }
-      
-        //!       else{
-
-        //!         continue;
-
-        //!       };
-
-        //!     }
-
-        //!   }
-          
-        //!   while(count != 0);;
-
-
-        //!    -----------------------------------------------------------------------
-
-    };
+                }
+              }
+        };
 
 
 
@@ -421,33 +373,9 @@
 
 
 
-        //todo -- TO DO -- ("Fix all errors in the program, (2, Critical) (1, Optional")
+        //todo -- TO DO -- ("Fix all errors in the program, (0, Critical) (0, Optional")
 
-            //todo -- TO DO -- Fix CRITICAL ERROR (2)
-
-                //* Error location: (Line 224) 
-
-                //* Problem criticity: (Critical) 
-
-                //* Error explanation: ("It does not detect when the head touches any of the body parts, hence, the player won't lose when the snake touches itself. This error halts the correct execution of the program if not commented out")
-
-
-            //todo -- TO DO -- Fix CRITICAL ERROR (3)
-
-                //* Error location: (Line 278) 
-
-                //* Problem criticity: (Critical) 
-
-                //* Error explanation: ("It says that snake[i][0] is undefined, even though I can easily access it inside of this function. This has already been a problem earlier in the code at line 122, but this time, it is critical and halts the correct execution of the program if not commented out.")    
-
-
-            //todo -- TO DO -- Fix OPTIONAL ERROR (1)
-
-                //* Error location: (Line 122) 
-
-                //* Problem criticity: (Optional) 
-
-                //* Error explanation: ("Code still works, but here (below) it gives the following error: ("Cannot read properties of undefined, (reading, "0"), this error will persist in the error number (3) of this code, and it will be critical there, hence, halting the correct execution of the program if not commented out.")
+            //* Well, there are no known bugs inside of the game, the program, is bug free!
 
 
 
@@ -474,7 +402,7 @@
     // COPYRIGHT
 
 
-      console.log("©2023 Alex, attribution is required for public use\nMy youtube channel: https://youtube.com/@Alex...............\nMy Codepen channel: https://codepen.io/coder2010_\nMy Github Channel: https://github.com/user-name-user")
+      console.log("© 2023 Alex Zambaiti, attribution is required for public use\nMy youtube channel: https://youtube.com/@Alex...............\nMy Codepen channel: https://codepen.io/coder2010_\nMy Github Channel: https://github.com/user-name-user")
 
 
       //* Attribution and credits required for public use
