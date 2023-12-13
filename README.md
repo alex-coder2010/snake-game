@@ -14,18 +14,23 @@ Code and program notes left by Alex, (The developer of this project).
 
                  Critical = ("Program functionality is halted because of this error")
 
-                 Optional = ("It gives a console error, but it doesn't affect the program. (It would be good practice to solve them anyway)")
+                 Optional = ("It gives a console error, but it doesn't affect the program. 
+                 (It would be good practice to solve them anyway)")
 
              -- QUESTION -- What is this project?
 
-                 This project is a snake game program, this project, together with the source code, is open source.
+                 This project is a snake game program, this project, together with the source code,
+                 is open source.
 
-                 You can feel free to complete any of the "TO DO" tasks right below to keep the code afloat, if you decide to do so, and find a solution to any of the "TO DO", feel free to start a pull request on Github, I will look your solution and see if it's ok to 
+                 You can feel free to complete any of the "TO DO" tasks right below to keep the code afloat, 
+                 if you decide to do so, and find a solution to any of the "TO DO", feel free to start a pull request on Github, 
+                 I will look your solution and see if it's ok to 
                  implement inside of the source code. (I will notice if you try to place malicious scripts. Please refrain from doing so!)
 
                  Even though the code is opensource. I do require attribution if featured on your channel or blog post. (or any other public thing)
 
-                 You do NOT have the right to claim this code as your own, if featured, it requires the correct attribution (look end of the code for more details about copyright) 
+                 You do NOT have the right to claim this code as your own, if featured,
+                 it requires the correct attribution (look end of the code for more details about copyright) 
 
 
             -- TO DO --
@@ -75,16 +80,17 @@ Code and program notes left by Alex, (The developer of this project).
     COPYRIGHT
 
 
-      console.log("© 2023 Alex Zambaiti, attribution is required for public use\nMy youtube channel: https:outube.com/@Alex...............\nMy Codepen channel: https:odepen.io/coder2010_\nMy Github Channel: https:ithub.com/user-name-user")
 
 
        Attribution and credits required for public use
 
-       ex: (in Youtube video description and inside of the video: ("This code was developed by Alex, this is the link to his project on github / the link to his project on github is in the video description ... "))
+       ex: (in Youtube video description and inside of the video: ("This code was developed by Alex, this is the link to his project on github / 
+       the link to his project on github is in the video description ... "))
 
        Attribution and credits not required for private use
 
-       To be honest, there will not be any legal consequenceS if you do not put attribution and credits, (i.e. Break the copyright agreement), but they are greatly appreciated, this way people that see this code on your channel will know that I am the one that actually 
+       To be honest, there will not be any legal consequenceS if you do not put attribution and credits, 
+       (i.e. Break the copyright agreement), but they are greatly appreciated, this way people that see this code on your channel will know that I am the one that actually 
        created it. I will request to take the video down if you pretend this code is yours, be honest!.
 
 
