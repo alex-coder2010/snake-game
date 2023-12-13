@@ -104,7 +104,7 @@ Footer
 
        Attribution and credits not required for private use
 
-       To be honest, there will not be any legal consequenceS if you do not put attribution
+       To be honest, there will not be any legal consequences if you do not put attribution
        and credits, 
        (i.e. Break the copyright agreement), but they are greatly appreciated, this way people
        that see this code on your channel will know that I am the one that actually 
