@@ -51,7 +51,16 @@ Code and program notes left by Alex, (The developer of this project).
             -- TO DO (2) -- ("Make the fruit a circle instead of a square, (Location: Line 335)")
             -- Suggested by ("Alex, the "Creator")
 
-            -- TO DO (3) -- ("Check "Errors to fix". (Location: right below)") -- 
+            -- TO DO (3) -- ("Add sound effects and background music, (Location: no location)")
+            -- Suggested by ("Alex, the "Creator")
+
+            -- TO DO (4) -- ("Add pause button, (Location: no location)")
+            -- Suggested by ("Alex, the "Creator")
+            
+            -- TO DO (5) -- ("Add speed selection, (Location: no location)")
+            -- Suggested by ("Alex, the "Creator")
+
+            -- TO DO (6) -- ("Check "Errors to fix". (Location: right below)") -- 
             Suggested by ("Alex, the "Creator")
 
 
