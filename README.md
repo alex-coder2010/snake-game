@@ -57,7 +57,7 @@ Code and program notes left by Alex, (The developer of this project).
 
              If you find any bug while trying out the game, live at (https://user-name-user.github.io/snake-game/), 
              please start a pull request, explaining the bug in detail, and if you do have a solution, 
-             include that as well. Thanks!
+             include that as well. Thanks! 
 
 
 
