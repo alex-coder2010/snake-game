@@ -22,7 +22,7 @@ Code and program notes left by Alex, (The developer of this project).
                  This project is a snake game program, this project, together with the source code,
                  is open source.
 
-                 You can feel free to complete any of the "TO DO" tasks right below to keep the code 
+                 You can feel free to complete any of the "TO DO" tasks right below to keep the code  
                  afloat, 
                  if you decide to do so, and find a solution to any of the "TO DO", feel free to start 
                  a pull request on Github, 
