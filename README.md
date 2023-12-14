@@ -1,4 +1,4 @@
-Code and program notes left by Alex, (The developer of this project).
+Code and program notes left by Alex. (The developer of this project).
 
 
 
