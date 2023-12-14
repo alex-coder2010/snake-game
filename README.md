@@ -42,7 +42,7 @@ Code and program notes left by Alex. (The developer of this project).
                 
                 Even though the code is open source, you can't do anything you want with it. 
                 Apache License 2.0 is applied for this project, for more information, visit the 
-                copyright and license sub heading inside of this read me file. (It's at the end)
+                "LICENSE AND COPYRIGHT" sub-heading inside of this file. (It's at the end)
         
         
         
