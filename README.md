@@ -4,7 +4,7 @@ Code and program notes left by Alex, (The developer of this project).
 
 
     
-    -- F.A.Q. and "To Do"  -----------------------------------
+    -- "F.A.Q." and "TO DO"  -----------------------------------
 
 
          -- F.A.Q. -- 
