@@ -3,7 +3,7 @@ Code and program notes left by Alex. (The developer of this project).
 
 
 
----------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 
 
@@ -19,6 +19,7 @@ Code and program notes left by Alex. (The developer of this project).
         
         
             -- QUESTION  --  What do "Critical" and "Optional" mean inside of this code?
+            
                 
                 Critical = ("Program functionality is halted because of this error")
                 
@@ -76,7 +77,7 @@ Code and program notes left by Alex. (The developer of this project).
         
             -- TO DO -- ("Fix all errors in the program, (0, Critical) (0, Optional")
             
-                Well, there are no known bugs inside of the game, the program, is bug free!
+                -- Well, there are no known bugs inside of the game, the program, is bug free!
                 
                 If you find any bug while trying out the game, live at 
                 (https://user-name-user.github.io/snake-game/), 
