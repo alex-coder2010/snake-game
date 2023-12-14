@@ -16,6 +16,7 @@ Code and program notes left by Alex, (The developer of this project).
 
                  Optional = ("It gives a console error, but it doesn't affect the program. 
                  (It would be good practice to solve them anyway)")
+                 
 
              -- QUESTION -- What is this project?
 
@@ -77,11 +78,6 @@ Code and program notes left by Alex, (The developer of this project).
              (https://user-name-user.github.io/snake-game/), 
              please start a pull request, explaining the bug in detail, 
              and if you do have a solution, include that as well. Thanks! 
-
-
-
-
-Footer
 
 
 
