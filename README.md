@@ -114,9 +114,10 @@ Code and program notes left by Alex. (The developer of this project).
         Attribution and credits not required for private use
         
         To be honest, there will not be any legal consequences if you do not put attribution
-        and credits, (i.e. Break the copyright agreement), but they are greatly appreciated, this way people
-        that see this code on your channel will know that I am the one that actually 
-        created it. I will request to take the video down if you pretend this code is yours, be honest!.
+        and credits, (i.e. Break the copyright agreement), but they are greatly appreciated, 
+        this way people that see this code on your channel will know that 
+        I am the one that actually created it. I will request to take the video down 
+        if you pretend this code is yours, be honest!.
     
     
         
