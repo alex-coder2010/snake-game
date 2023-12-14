@@ -4,7 +4,7 @@ body{
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background-image: url("../../Images/snakeBackground.jpg");
+    background-image: url("./snakeBackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
