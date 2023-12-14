@@ -93,9 +93,9 @@ Footer
 
        WHERE TO FIND ME
 
-       MY GITHUB CHANNEL: (https:ithub.com/user-name-user)
-       MY YOUTUBE CHANNEL: (https:outube.com/@Alex...............)
-       MY CODEPEN CHANNEL: (https:odepen.io/coder2010_)
+       MY GITHUB CHANNEL: ("https://github.com/user-name-user")
+       MY YOUTUBE CHANNEL: ("https://youtube.com/@Alex...............")
+       MY CODEPEN CHANNEL: ("https://codepen.io/coder2010_")
 
 
 
@@ -114,8 +114,7 @@ Footer
        Attribution and credits not required for private use
 
        To be honest, there will not be any legal consequences if you do not put attribution
-       and credits, 
-       (i.e. Break the copyright agreement), but they are greatly appreciated, this way people
+       and credits, (i.e. Break the copyright agreement), but they are greatly appreciated, this way people
        that see this code on your channel will know that I am the one that actually 
        created it. I will request to take the video down if you pretend this code is yours, be honest!.
 
