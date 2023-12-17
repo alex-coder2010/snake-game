@@ -92,9 +92,18 @@ Code and program notes left by Alex. (The developer of this project).
     
         Developed by: Alex,  
         
-        MY GITHUB CHANNEL: ("https://github.com/user-name-user")
-        MY YOUTUBE CHANNEL: ("https://youtube.com/@Alex...............")
-        MY CODEPEN CHANNEL: ("https://codepen.io/coder2010_")
+        MY GITHUB PROFILE: 
+        
+    ("https://github.com/alex-coder2010")
+        
+        MY YOUTUBE CHANNEL: 
+        ("https://youtube.com/@coder2010")
+       
+        MY CODEPEN PROFILE: 
+        ("https://codepen.io/coder2010_")
+        
+        MY FIVERR PROFILE:
+     ("https://fiverr.com/coder2010")
     
     
     
